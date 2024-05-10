@@ -1,0 +1,543 @@
+.servives{
+   margin: 0px 150px;
+   margin-bottom: 50px;
+   line-height: 50px;
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+.servives2{
+   margin-top: 20px;
+   /* line-height: 50px; */
+   margin: 0px 150px;
+   margin-bottom: 50px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+.of{ 
+    display: flex;
+    /* column-gap: 10px; */
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+.r2{
+   display: flex;
+}
+
+.r1{
+   display: flex;
+   gap: 8px;
+   font-size: 30px;
+   color: cyan;
+}
+.tr{
+   background-color: cyan;
+   height: 5px;
+   width: auto;
+   margin-top: 15px;
+   border-radius: 10px;
+}
+ .grdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: auto;
+    height: 500px;
+    margin-top: 30px;
+ }
+
+
+ .cent{
+    height: 600px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    margin: 0px 40px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ .d1{
+    /* background-color: aqua; */
+    background-image: url('images/Slides-blue.jpg');
+
+    background-size: cover;
+    background-position: top;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    filter: brightness(50%);
+    opacity: 50;
+    height: 500px;
+ }
+
+ .d1:hover{
+    transform: translateY(-8px) ;
+    filter: brightness(100%);
+ }
+
+ .d2:hover{
+    transform: translateY(-8px) ;
+    filter: brightness(100%);
+ }
+ .d3:hover{
+    transform: translateY(-8px) ;
+    filter: brightness(100%);
+ }
+ .d4:hover{
+    transform: translateY(-8px) ;
+    filter: brightness(100%);
+ }
+
+ .first{
+    position: relative;
+ }
+ .d2{
+    background-image: url('images/393797032_721942509964166_6476928127480073755_n.jpg');
+    background-size: cover;
+    background-position: top;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    filter: brightness(50%);
+    opacity: 50;
+    height: 500px;
+}
+ .d3{
+       background-image: url('images/fiber-optic-ga370ce901_1280.jpg');
+    background-size: cover;
+    background-position: top;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    filter: brightness(50%);
+    opacity: 50;
+    height: 500px;
+}
+    
+    .d4{
+      background-image: url('images/colocation-und-stuffen-1.jpg');
+     background-size: cover;
+    background-position: top;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    filter: brightness(50%);
+    opacity: 50;
+    height: 500px;
+    }
+ h1{
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .sp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+ }
+ .bt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 120px;
+    margin-top: 8px;
+    background-color: #00aeef;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    border: none;
+ }
+ .bt:hover{
+    background-color: rgb(74, 75, 75);
+ }
+
+ .sec2{
+   height: auto;
+   width: auto;
+   /* background-color: red; */
+   /* margin-top: 30px; */
+ }
+ .blue{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 10px;
+   margin: 0px auto;
+   width: auto;
+   column-gap: 10px;
+   align-items: center;
+   height: 500px;
+   background-color:blue;
+
+}
+
+.blu1{
+      height: 500px;
+      width: auto;
+      display: flex;
+      color: white;
+      margin: 0px 150px;
+    /* align-items: center; */
+    /* background-color: yellow; */
+    justify-content: center;
+    flex-direction: column;
+}
+/* .img2{
+   height: auto;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+.bl1{
+   width: 40px;
+   height: 40px;
+   text-align: left;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-image: url('images/d6156a54bda408282701663230d8a6c9.png'); */
+   /* background-size:contain;
+   background-repeat: no-repeat;
+   background-position: center; */
+   border-radius: 10px;
+   border:1px solid white;
+   padding: 8px 8px;
+   /* transition:all 1s ease-in-out; */
+}
+.img1{
+   width: 35px;
+   height: 20px;
+   
+}
+.bbl{
+   /* height: 500px; */
+   width: auto;
+   display: flex;
+ /* align-items: center; */
+   /* justify-content: center; */
+   flex-direction: column;
+
+}
+
+.bl1:hover{
+   animation: anime 1s infinite;
+} 
+.bt{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 160px;
+   margin-top: 8px;
+   background-color: #00aeef;
+   border-radius: 20px;
+   color: white;
+   padding: 12px;
+   border: none;
+}
+.bt:hover{
+   background-color: rgb(74, 75, 75);
+}
+
+@keyframes anime{
+0%, 100%{
+   transform: scale(1.1);
+}
+50%{
+   transform: scale(0.8);
+   
+}
+
+   /* 0%{
+      transform: scale(1.1);
+      transition-delay: 0.25s;
+   }
+   
+   50%{
+      transform: scale(1);
+      transition-delay: 0.25s;
+
+   }
+   75%{
+      transform: scale(0.9);
+      transition-delay: 0.25s;
+
+   }
+   100%{
+      transform: scale(0.7);
+      transition-delay: 0.25s;
+
+   } */
+}
+
+
+
+.blu2{
+   height: 500px;
+   width: auto;
+   background-image: url('images/newsletter.0bd8448.png');
+   background-size: cover;
+   background-position: center;
+   
+   }
+   .solu{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      width: auto;
+      height: 450px;
+   }
+
+   .first1{
+      background-image: url('images/network-ge9a9acccd_1280-1024x720.jpg');
+     background-size: cover;
+    background-position: top;
+    object-fit: contain;
+    transition: 0.5s ease-in-out;
+    position: relative;
+     
+   
+ 
+   }
+   .gp1:hover{
+      filter: brightness(50%);
+   }
+   .b1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+   }
+   .b2{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+   }
+   
+   .b3{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      margin-top: 10px;
+      }
+
+   .hos{
+   
+    width:325px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    filter: brightness(100%);
+    /* opacity: 50;  */
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    top: 0px;
+    height:450px ;
+   }
+
+  
+
+   .first1:hover{
+      filter: brightness(100%);
+
+   }
+
+   .hos .grbt{
+      display: none;
+   }
+
+   .hos:hover .grbt{
+      margin-top: 130px;
+      display: block;
+   }
+
+   .btn1:hover{
+      background-color: #00aeef;
+      color: white;
+      border: none;
+      z-index: 100;
+   }
+
+   .btn1{
+      margin-top: 20px;
+      width: 120px;
+      padding: 8px;
+     
+   }
+   .text{
+      position: fixed;
+      margin-bottom: 80px;
+      
+      }
+
+
+   /* .grbt{
+      width: 150px;
+      margin-top: 20px;
+      height: 70px;
+       background-color: red;
+      display: none; 
+   } */
+  
+   
+   .gp2{
+      background-image: url('images/products-blue-1-promo.1828e74-1024x1020.png');
+     background-size: cover;
+    background-position: top;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    filter: brightness(25%);
+    opacity: 50;
+    height: 450px;
+
+   }
+
+   .first2{
+
+    position: relative;
+    background-image: url('images/products-blue-1-promo.1828e74-1024x1020.png');
+    background-size: cover;
+   background-position: top;
+   object-fit: contain;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: 0.5s ease-in-out;
+   
+   height: 450px;
+   
+ 
+   }
+
+   .first3{
+
+      position: relative;
+      background-image: url('images/vpn-for-home-security-gd9e31a152_1920-1024x1024.jpg');
+      background-size: cover;
+     background-position: top;
+     object-fit: contain;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: 0.5s ease-in-out;
+     
+     opacity: 50;
+     height: 450px;
+     
+   
+     }
+   /* .gp3{
+      background-image: url('images/vpn-for-home-security-gd9e31a152_1920-1024x1024.jpg');
+      background-size: cover;
+     background-position: top;
+     object-fit: contain;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: 0.5s ease-in-out;
+     filter: brightness(50%);
+     opacity: 50;
+     height: 450px;
+   } */
+
+
+   .first4{
+
+      position: relative;
+      background-image: url('images/antenna-tower-g5b91279c6_1920-1024x1024.jpg');
+      background-size: cover;
+     background-position: top;
+     object-fit: contain;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: 0.5s ease-in-out;
+     opacity: 50;
+     height: 450px;
+     
+   
+     }
+   /* .gp4{
+      background-image: url('images/antenna-tower-g5b91279c6_1920-1024x1024.jpg');
+      background-size: cover;
+     background-position: top;
+     object-fit: contain;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: 0.5s ease-in-out;
+     filter: brightness(50%);
+     opacity: 50;
+     height: 450px;
+   } */
+
+ /* .blue img{
+   float: right;
+   background-color: blue;
+} */
+
+ @media(max-width: 850px){
+    .grdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto; 
+        margin-top: 10px;
+     }
+     .sec2{
+      margin-top: 500px;
+      padding: 0 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+   }
+   .blue{
+      display: grid;
+      grid-template-columns: 1fr;
+      width: auto;
+      column-gap: normal;
+      height: auto;
+      background-color:blue;
+   
+   }
+ }
+ 
+ @media(max-width: 600px){
+    .grdiv{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        width: auto;
+        height: 600vw;
+     }
+     .sec2{
+      margin-top: -300px;
+      padding: 0 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+   }
+     .blue{
+      /* margin-top: 150px; */
+      display: grid;
+      grid-template-columns: 1fr;
+      width: auto;
+      column-gap: normal;
+      height: auto;
+      background-color:blue;
+   
+   }
+ }
+ 
